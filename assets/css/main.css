@@ -1581,7 +1581,6 @@ section,
 .features-tabs .nav-link:hover {
   transform: translateY(-3px);
   border-color: transparent;
-  box-shadow: 0 15px 40px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .features-tabs .nav-link:hover::before {
@@ -1604,7 +1603,6 @@ section,
 
 .features-tabs .nav-link.active {
   border-color: var(--accent-color);
-  box-shadow: 0 15px 40px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .features-tabs .nav-link.active::before {
@@ -1919,14 +1917,12 @@ section,
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .services .intro-content .cta-button:hover {
   background: color-mix(in srgb, var(--accent-color), black 10%);
   color: var(--contrast-color);
   transform: translateY(-3px);
-  box-shadow: 0 12px 35px color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 .services .hero-visual {
