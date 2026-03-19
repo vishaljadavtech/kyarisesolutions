@@ -871,7 +871,6 @@ section,
 
 .hero .hero-actions .action-btn.primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 .hero .hero-actions .action-btn.primary:hover::before {
@@ -1320,7 +1319,6 @@ section,
   justify-content: center;
   border-radius: 16px;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .features .feature-item .feature-content h4 {
@@ -1356,7 +1354,6 @@ section,
 
 .features .feature-item:hover {
   transform: translateY(-15px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
 .features .feature-item:hover::before {
@@ -1370,7 +1367,6 @@ section,
 
 .features .feature-item:hover .feature-icon i {
   transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 12px 35px color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 .features .feature-item:hover .feature-tags .tag {
@@ -1767,12 +1763,10 @@ section,
   text-decoration: none;
   border: none;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .features-tabs .content-wrapper .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 35px color-mix(in srgb, var(--accent-color), transparent 60%);
   color: var(--contrast-color);
 }
 
@@ -1976,7 +1970,6 @@ section,
 
 .services .services-grid .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 25px 50px color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .services .services-grid .service-card:hover::before {
@@ -3235,7 +3228,6 @@ section,
 .contact .contact-info-section .info-item:hover {
   transform: translateX(10px);
   border-color: color-mix(in srgb, var(--accent-color), transparent 60%);
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 85%);
 }
 
 .contact .contact-info-section .info-item:hover .info-icon {
@@ -3422,7 +3414,6 @@ section,
 
 .contact .contact-form-wrapper .php-email-form .submit-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .contact .contact-form-wrapper .php-email-form .submit-btn:hover:before {
@@ -3893,7 +3884,6 @@ section,
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   height: 100%;
   background-color: var(--surface-color);
@@ -3903,7 +3893,6 @@ section,
 
 .portfolio-item:hover {
   transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 15px 35px rgba(229, 157, 2, 0.2);
   border-color: var(--accent-color);
 }
 
