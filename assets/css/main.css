@@ -291,7 +291,6 @@ h6 {
     transition: 0.3s;
     border-radius: 4px;
     z-index: 99;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
 
   .navmenu .dropdown ul li {
@@ -363,7 +362,6 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
 
   .navmenu a,
@@ -422,7 +420,6 @@ h6 {
     margin: 10px 20px;
     background-color: var(--nav-dropdown-background-color);
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-    box-shadow: none;
     transition: all 0.5s ease-in-out;
   }
 
@@ -888,7 +885,6 @@ section,
   border-color: var(--accent-color);
   color: var(--accent-color);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .hero .hero-image-showcase {
@@ -900,7 +896,6 @@ section,
   background: var(--surface-color);
   border-radius: 20px;
   padding: 15px;
-  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 88%);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
 }
 
@@ -916,7 +911,6 @@ section,
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 8px 30px color-mix(in srgb, var(--default-color), transparent 85%);
   backdrop-filter: blur(10px);
 }
 
@@ -1056,7 +1050,6 @@ section,
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -1099,14 +1092,12 @@ section,
   padding: 20px;
   background-color: var(--surface-color);
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   height: 100%;
 }
 
 .about .features-list .feature-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .about .features-list .feature-item i {
@@ -1231,7 +1222,6 @@ section,
 
 .features .intro-image img {
   border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
 .features .intro-image::before {
@@ -1272,7 +1262,6 @@ section,
   background: var(--surface-color);
   padding: 35px;
   border-radius: 20px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
   transition: all 0.4s ease;
   overflow: hidden;
 }
@@ -1452,7 +1441,6 @@ section,
   background-color: var(--surface-color);
   border-radius: 20px;
   padding: 40px;
-  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .features-tabs .nav-tabs {
@@ -1589,7 +1577,6 @@ section,
 
 .features-tabs .nav-link:hover .tab-icon {
   background: var(--contrast-color);
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .features-tabs .nav-link:hover .tab-icon i {
@@ -1652,7 +1639,6 @@ section,
   align-items: center;
   justify-content: center;
   margin-bottom: 25px;
-  box-shadow: 0 10px 30px color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .features-tabs .content-wrapper .icon-badge i {
@@ -1784,7 +1770,6 @@ section,
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .features-tabs .visual-content .main-image img {
@@ -1807,7 +1792,6 @@ section,
   display: flex;
   align-items: center;
   gap: 15px;
-  box-shadow: 0 15px 40px color-mix(in srgb, var(--default-color), transparent 80%);
   transform: translateY(20px);
   opacity: 0;
   animation: fadeInUp 0.8s ease 0.6s forwards;
@@ -1931,7 +1915,6 @@ section,
 
 .services .hero-visual img {
   border-radius: 20px;
-  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 @media (max-width: 991px) {
@@ -2073,7 +2056,6 @@ section,
   padding: 0.5rem 1rem;
   background-color: var(--surface-color);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 
@@ -2131,7 +2113,6 @@ section,
 .call-to-action .content-right img {
   width: 100%;
   height: auto;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .call-to-action .content-right .floating-card {
@@ -2141,7 +2122,6 @@ section,
   background: var(--surface-color);
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -2318,7 +2298,6 @@ section,
   border: 4px solid color-mix(in srgb, var(--accent-color), transparent 70%);
   margin-bottom: 15px;
   transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .testimonials .testimonial-header .rating {
@@ -2420,7 +2399,6 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .testimonials .swiper-button-prev:hover,
@@ -2651,201 +2629,6 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
-.pricing {
-  --card-border-radius: 20px;
-}
-
-.pricing .row {
-  justify-content: center;
-}
-
-.pricing .pricing-card {
-  height: 100%;
-  background: var(--surface-color);
-  border-radius: var(--card-border-radius);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-  position: relative;
-  transition: all 0.4s;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.pricing .pricing-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
-.pricing .pricing-card.popular {
-  border: 2px solid var(--accent-color);
-}
-
-.pricing .pricing-card.popular .plan-cta .btn-plan {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.pricing .pricing-card.popular .plan-cta .btn-plan:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-.pricing .pricing-card .popular-tag {
-  position: absolute;
-  top: 20px;
-  right: -35px;
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 40px;
-  transform: rotate(45deg);
-}
-
-.pricing .plan-header {
-  padding: 30px 30px 20px;
-  text-align: center;
-}
-
-.pricing .plan-header .plan-icon {
-  width: 70px;
-  height: 70px;
-  margin: 0 auto 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-}
-
-.pricing .plan-header .plan-icon i {
-  font-size: 28px;
-  color: var(--accent-color);
-}
-
-.pricing .plan-header h3 {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.pricing .plan-header p {
-  font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-.pricing .plan-pricing {
-  text-align: center;
-  padding: 10px 30px 20px;
-  position: relative;
-}
-
-.pricing .plan-pricing .currency {
-  font-size: 24px;
-  vertical-align: top;
-  line-height: 1;
-  color: var(--heading-color);
-  font-weight: 600;
-}
-
-.pricing .plan-pricing .amount {
-  font-size: 60px;
-  font-weight: 700;
-  color: var(--heading-color);
-  line-height: 1;
-}
-
-.pricing .plan-pricing .period {
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.pricing .plan-features {
-  padding: 20px 30px;
-  flex: 1;
-}
-
-.pricing .plan-features ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.pricing .plan-features ul li {
-  padding: 12px 0;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.pricing .plan-features ul li.disabled {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-}
-
-.pricing .plan-features ul li i {
-  font-size: 18px;
-}
-
-.pricing .plan-features ul li i.bi-check-circle-fill {
-  color: var(--accent-color);
-}
-
-.pricing .plan-features ul li i.bi-x-circle-fill {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-}
-
-.pricing .plan-cta {
-  padding: 10px 30px 30px;
-  text-align: center;
-}
-
-.pricing .plan-cta .btn-plan {
-  display: inline-block;
-  width: 100%;
-  padding: 14px 32px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
-  color: var(--default-color);
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: 600;
-  transition: all 0.3s;
-}
-
-.pricing .plan-cta .btn-plan:hover {
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-@media (max-width: 992px) {
-  .pricing .pricing-card {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .pricing .plan-pricing .amount {
-    font-size: 48px;
-  }
-
-  .pricing .plan-header {
-    padding: 25px 20px 15px;
-  }
-
-  .pricing .plan-features,
-  .pricing .plan-pricing,
-  .pricing .plan-cta {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-/*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
 .faq .faq-card {
@@ -2973,196 +2756,6 @@ section,
     top: 20px;
     font-size: 20px;
   }
-}
-
-/*--------------------------------------------------------------
-# Team Section
---------------------------------------------------------------*/
-.team .team-header {
-  margin-bottom: 50px;
-}
-
-.team .team-header h2 {
-  position: relative;
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-.team .team-header h2:before {
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 4px;
-  background: var(--accent-color);
-  bottom: 0;
-  left: 0;
-}
-
-.team .team-header p {
-  font-size: 17px;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
-  max-width: 600px;
-}
-
-@media (max-width: 991px) {
-  .team .team-header {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .team .team-header h2:before {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .team .team-header p {
-    margin: 0 auto;
-  }
-
-  .team .team-header .team-controls {
-    margin-top: 30px;
-    justify-content: center;
-  }
-}
-
-.team .team-controls {
-  display: flex;
-  gap: 12px;
-}
-
-.team .team-controls .team-control-btn {
-  width: 46px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  border: 2px solid var(--accent-color);
-  border-radius: 50%;
-  color: var(--accent-color);
-  font-size: 18px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.team .team-controls .team-control-btn:hover {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.team .team-slider {
-  padding: 10px 5px 40px;
-}
-
-.team .team-slider .swiper-wrapper {
-  height: auto !important;
-}
-
-.team .team-member {
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
-  background: var(--surface-color);
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-  transition: all 0.4s ease;
-  height: 100%;
-}
-
-.team .team-member:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-}
-
-.team .team-member:hover .member-image .member-social {
-  opacity: 1;
-  bottom: 20px;
-}
-
-.team .team-member:hover .member-image:before {
-  opacity: 0.8;
-}
-
-.team .team-member .member-image {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .team-member .member-image:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-  opacity: 0;
-  transition: all 0.4s ease;
-  z-index: 1;
-}
-
-.team .team-member .member-image img {
-  width: 100%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  transition: transform 0.6s ease;
-}
-
-.team .team-member .member-image .member-social {
-  position: absolute;
-  z-index: 2;
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  width: 100%;
-  bottom: -30px;
-  opacity: 0;
-  transition: all 0.4s ease;
-}
-
-.team .team-member .member-image .member-social a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: var(--contrast-color);
-  border-radius: 50%;
-  color: var(--accent-color);
-  font-size: 15px;
-  transition: all 0.3s ease;
-}
-
-.team .team-member .member-image .member-social a:hover {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  transform: translateY(-3px);
-}
-
-.team .team-member .member-content {
-  padding: 25px;
-}
-
-.team .team-member .member-content h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.team .team-member .member-content span {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--accent-color);
-  margin-bottom: 15px;
-}
-
-.team .team-member .member-content p {
-  font-size: 14px;
-  line-height: 1.6;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -3321,7 +2914,6 @@ section,
   background: linear-gradient(135deg, var(--surface-color), color-mix(in srgb, var(--surface-color), var(--background-color) 50%));
   padding: 40px;
   border-radius: 25px;
-  box-shadow: 0 15px 40px color-mix(in srgb, var(--default-color), transparent 90%);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -3364,7 +2956,6 @@ section,
 
 .contact .contact-form-wrapper .php-email-form .form-control:focus {
   border-color: var(--accent-color);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color), transparent 85%);
   background-color: var(--surface-color);
   outline: none;
 }
@@ -3532,7 +3123,6 @@ section,
 }
 
 .service-details .service-features .feature-item:hover {
-  box-shadow: 0 8px 25px color-mix(in srgb, var(--default-color), transparent 90%);
   transform: translateY(-2px);
 }
 
